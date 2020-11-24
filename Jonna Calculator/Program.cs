@@ -6,7 +6,11 @@ namespace Jonna_Calculator
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // Setting up the settings
+            Console.Title = "Calculator";
+            Console.BackgroundColor = ConsoleColor.Magenta;
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.Clear();
         }
     }
 }
